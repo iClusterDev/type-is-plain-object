@@ -1,13 +1,13 @@
-# _myPackage_
+# type-is-plain-object
 
 A short description.
 
 ## Installation
 
-Using [npm](https://www.npmjs.com/package/_myPackage_)
+Using [npm](https://www.npmjs.com/package/type-is-plain-object)
 
 ```console
-npm i _myPackage_
+npm i type-is-plain-object
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm i _myPackage_
 In Node (CommonJS)
 
 ```js
-const _myPackage_ = require('_myPackage_');
+const isPlainObject = require('type-is-plain-object');
 
 // ...
 ```
@@ -23,7 +23,7 @@ const _myPackage_ = require('_myPackage_');
 In the Browser (ES6 modules):
 
 ```js
-import _myPackage_ from '_myPackage_';
+import isPlainObject from 'type-is-plain-object';
 ```
 
 ## Contributing
