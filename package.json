@@ -29,7 +29,9 @@
   ],
   "author": "iClusterDev",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "type-is-object": "^1.0.9"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",

@@ -1,10 +1,10 @@
 // package configuration
 const config = {
   input: './index.js',
-  name: 'myPackage',
+  name: 'isPlainObject',
   dest: './',
   outCjs: 'index.cjs.js',
-  dependencies: []
+  dependencies: ['type-is-object']
 };
 
 module.exports = config;
