@@ -1,2 +1,9 @@
-node_modules
-boundle
+# npm
+node_modules/
+*.log
+
+# misc
+temp
+tmp
+dist
+index.cjs.js

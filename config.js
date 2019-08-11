@@ -1,8 +1,8 @@
 // package configuration
 const config = {
-  input: './myPackage.js',
+  input: './index.js',
   name: 'myPackage',
-  dest: './boundle',
+  dest: './',
   outCjs: 'index.cjs.js',
   outEsm: 'index.js',
   dependencies: []

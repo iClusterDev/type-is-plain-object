@@ -16,16 +16,6 @@ module.exports = [
     }
   },
   {
-    // --> for es6 modules
-    input: config.input,
-    external: config.dependencies,
-    plugins: [nodeResolve(), commonjs(), babel({ exclude: 'node_modules/**' })],
-    output: {
-      file: path.join('boundle', config.outEsm),
-      format: 'esm'
-    }
-  },
-  {
     // --> for browser umd
     input: config.input,
     plugins: [nodeResolve(), commonjs(), babel({ exclude: 'node_modules/**' })],

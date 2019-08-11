@@ -9,7 +9,7 @@
     "index.js"
   ],
   "scripts": {
-    "clean": "rimraf boundle package",
+    "clean": "rimraf index.cjs.js dist",
     "build": "npm run clean && rollup -c && gulp",
     "test": "mocha"
   },
@@ -29,7 +29,6 @@
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
-    "gulp": "^4.0.2",
     "mocha": "^6.2.0",
     "rimraf": "^2.6.3",
     "rollup": "^1.19.4",

@@ -1,6 +1,6 @@
-# npm-package-builder
+# _myPackage_
 
-A productivity tool to build Npm Packages.
+A short description.
 
 ## Installation
 
