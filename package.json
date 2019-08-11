@@ -1,0 +1,33 @@
+{
+  "name": "npm_package_builder",
+  "description": "A productivity tool to build Npm Packages",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf boundle package",
+    "build": "npm run clean && rollup -c && gulp",
+    "test": "mocha"
+  },
+  "keywords": [
+    "rollup",
+    "npm",
+    "npmPackage",
+    "boundler",
+    "builder"
+  ],
+  "author": "iClusterDev",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "mocha": "^6.2.0",
+    "rimraf": "^2.6.3",
+    "rollup": "^1.19.4",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-commonjs": "^10.0.2",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.2"
+  }
+}
