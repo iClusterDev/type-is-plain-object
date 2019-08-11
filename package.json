@@ -1,6 +1,6 @@
 {
   "name": "type-is-plain-object",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility to test if a 'value' has a type of 'Object' and it was created by the Object constructor",
   "main": "index.cjs.js",
   "module": "index.js",
@@ -42,5 +42,13 @@
     "rollup-plugin-commonjs": "^10.0.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-uglify": "^6.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iClusterDev/type-is-plain-object.git"
+  },
+  "homepage": "git+https://github.com/iClusterDev/type-is-plain-object.git",
+  "bugs": {
+    "url": "https://github.com/iClusterDev/type-is-plain-object/issues"
   }
 }
