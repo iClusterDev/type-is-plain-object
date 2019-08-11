@@ -11,7 +11,9 @@
   "scripts": {
     "clean": "rimraf index.cjs.js dist",
     "build": "npm run clean && rollup -c",
-    "test": "mocha"
+    "test": "mocha",
+    "prepare": "npm run build",
+    "prepublish": "npm test"
   },
   "engines": {
     "node": ">=0.10.0"
