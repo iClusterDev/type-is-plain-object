@@ -1,6 +1,6 @@
 # type-is-plain-object
 
-A short description.
+A utility to test if a 'value' has a type of 'Object' and it was created by the Object constructor.
 
 ## Installation
 
