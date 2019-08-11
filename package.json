@@ -1,12 +1,20 @@
 {
   "name": "npm_package_builder",
-  "description": "A productivity tool to build Npm Packages",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "A productivity tool to build Npm Packages",
+  "main": "index.cjs.js",
+  "module": "index.js",
+  "files": [
+    "index.cjs.js",
+    "index.js"
+  ],
   "scripts": {
     "clean": "rimraf boundle package",
     "build": "npm run clean && rollup -c && gulp",
     "test": "mocha"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   },
   "keywords": [
     "rollup",
