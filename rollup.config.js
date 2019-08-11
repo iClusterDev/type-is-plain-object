@@ -1,11 +1,11 @@
-import nodeResolve from 'rollup-plugin-node-resolve';
-import commonjs from 'rollup-plugin-commonjs';
-import babel from 'rollup-plugin-babel';
-import path from 'path';
-import config from './config';
-import uglify from 'rollup-plugin-uglify';
+const nodeResolve = require('rollup-plugin-node-resolve');
+const commonjs = require('rollup-plugin-commonjs');
+const babel = require('rollup-plugin-babel');
+const path = require('path');
+const config = require('./config');
+const uglify = require('rollup-plugin-uglify');
 
-export default [
+module.exports = [
   {
     // --> for common js
     input: config.input,

@@ -8,4 +8,4 @@ const config = {
   dependencies: []
 };
 
-export default config;
+module.exports = config;
