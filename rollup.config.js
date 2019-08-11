@@ -11,7 +11,7 @@ module.exports = [
     input: config.input,
     plugins: [nodeResolve(), babel({ exclude: 'node_modules/**' })],
     output: {
-      file: path.join('boundle', config.outCjs),
+      file: config.outCjs,
       format: 'cjs'
     }
   },
@@ -21,7 +21,7 @@ module.exports = [
     plugins: [nodeResolve(), commonjs(), babel({ exclude: 'node_modules/**' })],
     output: {
       name: config.name,
-      file: path.join('boundle', 'dist', `${config.name}.js`),
+      file: path.join('dist', `${config.name}.js`),
       format: 'umd'
     }
   },
@@ -36,7 +36,7 @@ module.exports = [
     ],
     output: {
       name: config.name,
-      file: path.join('boundle', 'dist', `${config.name}.min.js`),
+      file: path.join('dist', `${config.name}.min.js`),
       format: 'umd'
     }
   }

@@ -4,7 +4,6 @@ const config = {
   name: 'myPackage',
   dest: './',
   outCjs: 'index.cjs.js',
-  outEsm: 'index.js',
   dependencies: []
 };
 

@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "clean": "rimraf index.cjs.js dist",
-    "build": "npm run clean && rollup -c && gulp",
+    "build": "npm run clean && rollup -c",
     "test": "mocha"
   },
   "engines": {
